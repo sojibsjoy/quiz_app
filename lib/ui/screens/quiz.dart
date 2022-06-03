@@ -195,9 +195,9 @@ class _QuizScreenState extends State<QuizScreen> {
       _tappedBtnKey = '';
     } else {
       int highScore = Preference.getHighScore();
-      // if (highScore < _score) {
-      Preference.setHighScore(_score);
-      // }
+      if (highScore < _score) {
+        Preference.setHighScore(_score);
+      }
       Get.back();
     }
   }

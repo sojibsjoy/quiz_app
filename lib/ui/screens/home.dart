@@ -40,6 +40,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 addHeight(30),
                 Text(
                   "Highscore\n${Preference.getHighScore()} Point",
+                  textAlign: TextAlign.center,
                   style: const TextStyle(
                     color: Colors.white,
                     fontSize: 22,

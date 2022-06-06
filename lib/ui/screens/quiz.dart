@@ -88,7 +88,7 @@ class _QuizScreenState extends State<QuizScreen> {
                     ),
                   ),
                   Container(
-                    height: 380,
+                    height: 350,
                     width: 350,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(15),
@@ -102,7 +102,7 @@ class _QuizScreenState extends State<QuizScreen> {
                           "${_quizCon.qModel.questions[_index].score} Point",
                         ),
                         SizedBox(
-                          height: 200,
+                          height: 180,
                           width: 260,
                           child: Image.network(
                             _quizCon.qModel.questions[_index].questionImageUrl,
@@ -121,7 +121,7 @@ class _QuizScreenState extends State<QuizScreen> {
                       ],
                     ),
                   ),
-                  addHeight(50),
+                  addHeight(30),
                   Expanded(
                     child: ListView(
                       children: _quizCon
@@ -161,7 +161,7 @@ class _QuizScreenState extends State<QuizScreen> {
                                           : Colors.white
                                       : Colors.white,
                             ),
-                            addHeight(20),
+                            addHeight(10),
                           ],
                         );
                       }).toList(),

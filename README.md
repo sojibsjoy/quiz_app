@@ -1,16 +1,18 @@
-# quiz_app
+# Flutter Quiz App
+------------------------------------------------------------<br>
+This application is a test task given by "Programming Hero".<br>
+------------------------------------------------------------<br>
+<br>
 
-A new Flutter project.
+Some Screenshots of the project:<br>
+Home Page (without any highscore)  |  Quiz Page (wrong answer given - 2s to show)  |  
+:-------------------------:|:-------------------------:
+<img src="ss/p1.png" alt="Home Page (without any highscore)" height=400 />  |  <img src="ss/p2.png" alt="Quiz Page (wrong answer given - 2s to show)" height=400 />
 
-## Getting Started
+Quiz Page (no answer given - 10s to show)  |  Home Page (with highscore)  |  
+:-------------------------:|:-------------------------:
+<img src="ss/p3.png" alt="Quiz Page (no answer given - 10s to show)" height=400 />  |  <img src="ss/p4.png" alt="Home Page (with highscore)" height=400 />
 
-This project is a starting point for a Flutter application.
+<br>
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Test apk link: https://drive.google.com/file/d/1lU6S4nvasznhaNUBwAjIPQU3YCCjFZSP/view?usp=sharing
